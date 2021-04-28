@@ -17,7 +17,7 @@ int main(void)
     _enable_interrupt();
     Init_UART();
     while(true){
-/*        PRINT_STRING("\n\rWaiting for Data: ");
+/*      PRINT_STRING("\n\rWaiting for Data: ");
         unsigned char a = INCHAR_UART();
         OUTA_UART(a);*/
     }
